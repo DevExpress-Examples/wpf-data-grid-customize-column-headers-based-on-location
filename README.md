@@ -1,3 +1,7 @@
+<!-- default badges list -->
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1137093)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # WPF Data Grid - How To Customize Column Headers 
 
 This example demonstrates how to customize column headers in the headers panel, group panel or column chooser independent from each other. They can be distinguished by the [`ColumnBase.HeaderPresenterType`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ColumnBase.HeaderPresenterType) attached property. 
