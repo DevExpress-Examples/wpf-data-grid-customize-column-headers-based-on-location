@@ -1,5 +1,6 @@
 Imports DevExpress.Xpf.Grid
 Imports System
+Imports System.Globalization
 Imports System.Windows.Data
 Imports System.Windows.Markup
 
@@ -9,7 +10,7 @@ Namespace CustomColumnHeader
         Inherits MarkupExtension
         Implements IMultiValueConverter
 
-        Public Function Convert(ByVal values As Object(), ByVal targetType As Type, ByVal parameter As Object, ByVal culture As CultureInfo) As Object
+        Public Function Convert(ByVal values As Object(), ByVal targetType As Type, ByVal parameter As Object, ByVal culture As CultureInfo) As Object Implements IMultiValueConverter.Convert
             Return GetCustomHeaderString(CStr(values(0)), CType(values(1), HeaderPresenterType))
         End Function
 
@@ -26,7 +27,7 @@ Namespace CustomColumnHeader
             Return originalHeader
         End Function
 
-        Public Function ConvertBack(ByVal value As Object, ByVal targetTypes As Type(), ByVal parameter As Object, ByVal culture As CultureInfo) As Object()
+        Public Function ConvertBack(ByVal value As Object, ByVal targetTypes As Type(), ByVal parameter As Object, ByVal culture As CultureInfo) As Object() Implements IMultiValueConverter.ConvertBack
             Throw New NotImplementedException()
         End Function
 
