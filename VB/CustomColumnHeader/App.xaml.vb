@@ -1,11 +1,9 @@
-Imports System.Windows
-
 Namespace CustomColumnHeader
 
     ''' <summary>
     ''' Interaction logic for App.xaml
     ''' </summary>
-    Partial Public Class App
+    Public Partial Class App
         Inherits Application
 
     End Class
