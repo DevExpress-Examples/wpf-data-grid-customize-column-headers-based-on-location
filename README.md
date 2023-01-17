@@ -6,6 +6,8 @@
 
 This example applies different settings to column headers based on the header's container. The [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) displays column headers in the [column header panel](https://docs.devexpress.com/WPF/7569/controls-and-libraries/data-grid/visual-elements/common-elements/column-header-panel), [group panel](https://docs.devexpress.com/WPF/6215/controls-and-libraries/data-grid/visual-elements/common-elements/group-panel) (if you group data by this column), or [column chooser](https://docs.devexpress.com/WPF/6217/controls-and-libraries/data-grid/visual-elements/common-elements/column-band-chooser). Use the [ColumnBase.HeaderPresenterType](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ColumnBase.HeaderPresenterType) attached property to determine the header's location.
 
+![image](https://user-images.githubusercontent.com/65009440/212900882-89b3e293-71c2-4f87-9fb0-bd1b006aa629.png)
+
 The following table demonstrates how the header's text is changed:
 
 | Header's Location | New Text |
@@ -13,8 +15,6 @@ The following table demonstrates how the header's text is changed:
 | [Column header panel](https://docs.devexpress.com/WPF/7569/controls-and-libraries/data-grid/visual-elements/common-elements/column-header-panel) | Custom Panel Header |
 | [Group panel](https://docs.devexpress.com/WPF/6215/controls-and-libraries/data-grid/visual-elements/common-elements/group-panel) | Custom Group Header |
 | [Column chooser](https://docs.devexpress.com/WPF/6217/controls-and-libraries/data-grid/visual-elements/common-elements/column-band-chooser) | Custom Column Chooser Header |
-
-![image](https://user-images.githubusercontent.com/65009440/212900882-89b3e293-71c2-4f87-9fb0-bd1b006aa629.png)
 
 ## Implementation details
 
