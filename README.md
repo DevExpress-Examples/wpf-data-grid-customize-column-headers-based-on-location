@@ -29,7 +29,8 @@ This solution implements a multi-value converter that changes the header's text.
                     <TextBlock.Text>
                         <MultiBinding Converter="{local:CustomHeaderConverter}">
                             <Binding />
-                            <Binding Path="(dxg:ColumnBase.HeaderPresenterType)" RelativeSource="{RelativeSource Self}" />
+                            <Binding Path="(dxg:ColumnBase.HeaderPresenterType)" 
+                                     RelativeSource="{RelativeSource Self}"/>
                         </MultiBinding>
                     </TextBlock.Text>
                 </TextBlock>
