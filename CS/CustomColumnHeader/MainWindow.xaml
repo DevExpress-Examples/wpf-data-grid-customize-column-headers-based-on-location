@@ -37,20 +37,17 @@
         </Grid.ColumnDefinitions>
 
         <dxg:GridControl ItemsSource="{Binding Source}">
-            <dxg:GridControl.Columns>
-                <dxg:GridColumn Header="Name" FieldName="Name"/>
-                <dxg:GridColumn Header="Original Header" FieldName="Group" GroupIndex="0" ShowGroupedColumn="True" />
-            </dxg:GridControl.Columns>
+            <dxg:GridColumn Header="Name" FieldName="Name"/>
+            <dxg:GridColumn Header="Original Header" FieldName="Group" GroupIndex="0" ShowGroupedColumn="True"/>
 
             <dxg:GridControl.View>
-                <dxg:TableView x:Name="tableView" ShowGroupedColumns="True"/>
+                <dxg:TableView x:Name="tableView"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
 
-        <dxg:ExtendedColumnChooserControl 
+        <dxg:ExtendedColumnChooserControl
             Grid.Column="1"
-            Owner="{Binding ElementName=tableView}" 
-            FlowDirection="{Binding Owner.FlowDirection, RelativeSource={RelativeSource Self}}">
-        </dxg:ExtendedColumnChooserControl>
+            Owner="{Binding ElementName=tableView}"
+            FlowDirection="{Binding Owner.FlowDirection, RelativeSource={RelativeSource Self}}"/>
     </Grid>
 </Window>

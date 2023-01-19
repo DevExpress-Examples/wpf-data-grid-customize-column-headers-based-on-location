@@ -2,10 +2,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace CustomColumnHeader
-{
-    public class Item : BindableBase
-    {
+namespace CustomColumnHeader {
+    public class Item : BindableBase {
         public string Name {
             get => GetValue<string>();
             set => SetValue(value);

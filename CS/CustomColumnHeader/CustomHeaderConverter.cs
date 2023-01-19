@@ -4,10 +4,8 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace CustomColumnHeader
-{
-    public class CustomHeaderConverter : MarkupExtension, IMultiValueConverter
-    {
+namespace CustomColumnHeader {
+    public class CustomHeaderConverter : MarkupExtension, IMultiValueConverter {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture) {
             return GetCustomHeaderString((string)values[0], (HeaderPresenterType)values[1]);
         }

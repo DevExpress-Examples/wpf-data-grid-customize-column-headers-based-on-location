@@ -12,6 +12,6 @@
     <ApplicationDefinition Include="App.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="devexpress.wpf.grid.core" Version="22.2.3" />
+    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="22.2.*-*" />
   </ItemGroup>
 </Project>
