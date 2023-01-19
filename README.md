@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1137093)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# WPF Data Grid - Customize Column Headers Based on Location
+# WPF Data Grid - Customize Column Headers Based on Their Location
 
 This example applies different settings to column headers based on the header's container. The [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) displays column headers in the [column header panel](https://docs.devexpress.com/WPF/7569/controls-and-libraries/data-grid/visual-elements/common-elements/column-header-panel), [group panel](https://docs.devexpress.com/WPF/6215/controls-and-libraries/data-grid/visual-elements/common-elements/group-panel) (if you group data by this column), or [column chooser](https://docs.devexpress.com/WPF/6217/controls-and-libraries/data-grid/visual-elements/common-elements/column-band-chooser). Use the [ColumnBase.HeaderPresenterType](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ColumnBase.HeaderPresenterType) attached property to determine the header's location.
 
