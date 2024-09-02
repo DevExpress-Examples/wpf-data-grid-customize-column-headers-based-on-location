@@ -1,8 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>
@@ -12,6 +13,6 @@
     <ApplicationDefinition Include="App.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="24.2.*-*" />
   </ItemGroup>
 </Project>
